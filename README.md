@@ -1,5 +1,7 @@
 ## NEM2 Serverless Faucet
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/987ec6b8-8c50-41ff-b0a0-d54b25935ca0/deploy-status)](https://app.netlify.com/sites/nem2-faucet/deploys)
+
 A serverless faucet for Catapult using Netlify's Lambda Functions.
 
 **Demo**: [https://nem2-faucet.netlify.com](https://nem2-faucet.netlify.com)
