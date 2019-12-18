@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>NEM2 Serverless Faucet</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Mono" rel="stylesheet">
+    <link href="/normalize.css" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet">
+</head>
+<body>
+<h1>NEM2 Serverless Faucet</h1>
+<p>
+    Hi there! This is a serverless faucet for Catapult using <a href="https://www.netlify.com/docs/functions">Netlify’s
+    Lambda Functions</a>.
+</p>
+
+<p>This app is connected to the <a href="http://explorer.nemtech.network/">Catapult TESTNET</a>, and distributes a mosaic with id <em>103E3F46B101D781</em>.</p>
+
+<p>
+    You can browse the code for this site on
+    <a href="https://github.com/dgarcia360/nem2-serverless-faucet">GitHub</a>.
+</p>
+
+<article>
+    <h3>Try it out</h3>
+    <form action="/.netlify/functions/faucet" method="POST">
+        <p>
+            <label>What's your address?<br/><input name="address" type="text"></label>
+            <label>How many units (max 1000)?<br/><input name="amount" type="number"></label>
+        </p>
+        <p>
+            <button type="submit">Receive!</button>
+        </p>
+    </form>
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.14.0/prism.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
