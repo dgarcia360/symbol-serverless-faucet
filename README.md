@@ -1,12 +1,12 @@
-## NEM2 Serverless Faucet
+## Symbol Serverless Faucet
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/987ec6b8-8c50-41ff-b0a0-d54b25935ca0/deploy-status)](https://app.netlify.com/sites/nem2-faucet/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/987ec6b8-8c50-41ff-b0a0-d54b25935ca0/deploy-status)](https://app.netlify.com/sites/symbol-faucet/deploys)
 
-A serverless faucet for Catapult using Netlify's Lambda Functions.
+A serverless faucet for Symbol blockchain using Netlify's Lambda Functions.
 
-**Demo**: [https://nem2-faucet.netlify.com](https://nem2-faucet.netlify.com)
+**Demo**: [https://symbol-faucet.netlify.com](https://symbol-faucet.netlify.com)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dgarcia360/nem2-serverless-faucet)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/dgarcia360/symbol-serverless-faucet)
 
 ## Requirements
 
@@ -21,7 +21,7 @@ A serverless faucet for Catapult using Netlify's Lambda Functions.
 2. Enter the project.
 
 ```
-cd nem2-serverless-faucet 
+cd symbol-serverless-faucet 
 ```
 
 3. Run yarn install.
